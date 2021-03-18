@@ -1,4 +1,4 @@
-proofofpersonhood.com SDKs > python
+proofofpersonhood.com SDKs > JS
 
 to run, load the pop_api.js:
 
