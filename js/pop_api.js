@@ -52,7 +52,8 @@ async function get_personhoodscore(network, address){
     }
     let index = await passport.methods.tokenOfOwnerByIndex(address, 0).call();
     var tokenURI = await passport.methods.tokenURI(index).call();
-    tokenURI = tokenURI.replace('https://persons.proofofpersonhood.com', 'http://localhost:8000');
+    // for local testing
+    // tokenURI = tokenURI.replace('https://persons.proofofpersonhood.com', 'http://localhost:8000');
 
     // get personhood score
     foo = await makeRequest('GET', tokenURI); ;
