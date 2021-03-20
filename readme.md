@@ -5,10 +5,10 @@
 *version 0.0.1*
 
 Available in
-- js/
-- python/
+- [js/](js/)
+- [python/](python/)
 
-Click into each subdirectory to get sample code
+Click into each subdirectory to get sample code, or checkout the [integration guide](integration_guide.md).
 
 # Other Resources For Proof of Personhood
 - [Marketing Site](https://proofofpersonhood.com/)
