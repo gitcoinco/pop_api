@@ -1,5 +1,22 @@
 # Proof of Personhood passport (PoPP) Integration Guide
 
+## Table of Contents
+
+- [Proof of Personhood passport (PoPP) Integration Guide](#proof-of-personhood-passport--popp--integration-guide)
+  * [Preface](#preface)
+  * [Why](#why)
+  * [What](#what)
+    + [PersonhoodScore](#personhoodscore)
+    + [System Design](#system-design)
+      - [PersonhoodScore](#personhoodscore-1)
+      - [Privacy](#privacy)
+      - [System Design](#system-design-1)
+      - [Issuance Patterns](#issuance-patterns)
+        * [NFTs](#nfts)
+        * [DIDs](#dids)
+      - [Consumption](#consumption)
+
+
 ## Preface
 
 ALPHA WARNING - This project is in alpha, version 0.0.1. 
