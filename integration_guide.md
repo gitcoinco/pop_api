@@ -153,3 +153,13 @@ Consumption of this API is available in various API clients:
 - [python/](python/)
 
 
+## Warnings, Roadmap, and todos
+
+Right now this project is a proof of concept, and the following warnings should ube noted:
+
+- Alpha Warning - This project is in alpha, version 0.0.1. 
+- Execution Centralization Warning - Due to an Oracle problem with how the integrations are managed, the PersonhoodScore is issued by Gitcoin right now.  We do have plans to federate issuance of credentials down the line.
+- Governance Centralization Warning - The PersonhoodScore weights right now are set by the Gitcoin team, but we do have plans to one day move them to a governance process.
+- DIDs - We believe that the W3C compliant DIDs are the likely long-term best place for this information to live, but are providing NFTs as a recognition of where the ecosystem is today.  Depending upon consumer demand + governance, we may support either/both long term.
+
+
