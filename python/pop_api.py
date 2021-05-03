@@ -19,7 +19,7 @@ def get_personhoodscore(w3, network, address):
     # setup
     address = w3.toChecksumAddress(address)
     contract_address_rinkeby = w3.toChecksumAddress('0xcEFBf0A9Ada7A03056dD08B470AA843ef8ca5D79')
-    contract_address_mainnet = w3.toChecksumAddress('0xcf553bEF97A83Eb05d3e694DA8803a2ab2466338')
+    contract_address_mainnet = w3.toChecksumAddress('0xb4e903dc14dfe994fe291fc5b385c4718413366d')
 
     # get contract
     contract_address = contract_address_mainnet if network == 'mainnet' else contract_address_rinkeby
